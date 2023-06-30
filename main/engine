@@ -1,1 +1,23 @@
+public class Car {
+  private String name;
+  private Engine engine;
+  private Battery battery;
+  private Tire[] tires;
 
+  public Car(String name, Engine engine, Battery battery, Tire[] tires) {
+    this.name = name;
+    this.engine = engine;
+    this.battery = battery;
+    this.tires = tires;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public Engine getEngine() {
+    return engine;
