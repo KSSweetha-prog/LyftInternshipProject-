@@ -1,1 +1,44 @@
+public class Tire {
+  private String size;
+  private String brand;
+  private int treadDepth;
+
+  public Tire(String size, String brand, int treadDepth) {
+    this.size = size;
+    this.brand = brand;
+    this.treadDepth = treadDepth;
+  }
+
+  public String getSize() {
+    return size;
+  }
+
+  public void setSize(String size) {
+    this.size = size;
+  }
+
+  public String getBrand() {
+    return brand;
+  }
+
+  public void setBrand(String brand) {
+    this.brand = brand;
+  }
+
+  public int getTreadDepth() {
+    return treadDepth;
+  }
+
+  public void setTreadDepth(int treadDepth) {
+    this.treadDepth = treadDepth;
+  }
+
+  public void rotate() {
+    System.out.println("Rotating tire");
+  }
+
+  public void change() {
+    System.out.println("Changing tire");
+  }
+}
 
