@@ -1,1 +1,51 @@
+public class Engine {
+  private String make;
+  private String model;
+  private int serviceIntervalMiles;
 
+  public Engine(String make, String model, int serviceIntervalMiles) {
+    this.make = make;
+    this.model = model;
+    this.serviceIntervalMiles = serviceIntervalMiles;
+  }
+
+  public String getMake() {
+    return make;
+  }
+
+  public void setMake(String make) {
+    this.make = make;
+  }
+
+  public String getModel() {
+    return model;
+  }
+
+  public void setModel(String model) {
+    this.model = model;
+  }
+
+  public int getServiceIntervalMiles() {
+    return serviceIntervalMiles;
+  }
+
+  public void setServiceIntervalMiles(int serviceIntervalMiles) {
+    this.serviceIntervalMiles = serviceIntervalMiles;
+  }
+
+  public void startEngine() {
+    System.out.println("Starting engine");
+  }
+
+  public void stopEngine() {
+    System.out.println("Stopping engine");
+  }
+
+  public void accelerate() {
+    System.out.println("Accelerating");
+  }
+
+  public void decelerate() {
+    System.out.println("Decelerating");
+  }
+}
