@@ -1,1 +1,43 @@
+public class Battery {
+  private String make;
+  private String model;
+  private int serviceIntervalYears;
+
+  public Battery(String make, String model, int serviceIntervalYears) {
+    this.make = make;
+    this.model = model;
+    this.serviceIntervalYears = serviceIntervalYears;
+  }
+
+  public String getMake() {
+    return make;
+  }
+
+  public void setMake(String make) {
+    this.make = make;
+  }
+
+  public String getModel() {
+    return model;
+  }
+
+  public void setModel(String model) {
+    this.model = model;
+  }
+
+  public int getServiceIntervalYears() {
+    return serviceIntervalYears;
+  }
+
+  public void setServiceIntervalYears(int serviceIntervalYears) {
+    this.serviceIntervalYears = serviceIntervalYears;
+  }
+
+  public void providePower() {
+    System.out.println("Providing power");
+  }
+
+  public void storePower() {
+    System.out.println("Storing power");
+  }
 
